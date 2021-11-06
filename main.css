@@ -1,7 +1,7 @@
 body {background-color>:pink;
 font-family: Segoe, Verdana, sans-serif;}
 
-header {background-color:white;
+header {background-color:black;
 }
 
 h1{color:purple;}
@@ -9,7 +9,7 @@ nav > ul {line-height:2em;
 list-style-type: none;
 padding-left:5px;}
 
-section {background-color: black;
+section {background-color: white;
 width:75%;
 font-size: 1.2em;}
 
