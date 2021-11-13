@@ -2,17 +2,36 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="keywords" content="Karla Marmol" />
+<meta name="keyboard" contect="Karla Marmol" />
 <title>Karla Marmol</title>
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" herf="main.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
-  
 <body>
-<header>
-    <h1>Karla Marmol</h1>
-<nav>
 
+<h2>Karla Marmol</h2>
+<nav>
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
@@ -21,15 +40,18 @@
 </ul>
 </nav>
 </header>
-  
-<section id="leftColumn">
-  <img class="img-theme" src="img/rollercoaster.jpg" alt="theme park">
-  
-  </section>
-  <section id="rightColumn"
-<h2> Education Goals</h2>
 
-<ol>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <section id=leftColumn>
+    <img src="rollercoaster.jpg" alt="fast">
+    </section>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <section id="rightColumn"</section>
+    
+    <h2>Education Goals</h2>
+    <p><ol>
 <li>I want to earn my A.A Degree.</li>
 <li>I want to be accepted to the Cerritos Nursing school.</li>
 <li>I want to earn my B.A. in Nursing.</li>
@@ -57,5 +79,9 @@
                                          href="mailto:karla.marmol@gmail.com">Email me</a> 
     </p>
     </footer>
+  </div>
+</div>
+
 </body>
 </html>
+
