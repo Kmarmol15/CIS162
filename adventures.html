@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
 <title>Karla Marmol</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
-  
 <body>
 <header>
-    <h1>Karla Marmol</h1>
+<h1>Karla Marmol</h1>
 <nav>
-
-<ul>
+<ol>
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="adventures.html">Adventures</a> </li>
-
-</ul>
+  </ol>
 </nav>
 </header>
-  
-  <img src="rollercoaster.jpg" alt="coaster">
-  
 
- 
-<h2>Adrenaline</h2>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Life is a Rollercoaster.</h2>
+    <p> <img src="rollercaster.jpg" alt="coaster"> </p>
 
-<p> I love spending time at theme parks and trying new rollercoasters. I belive the adrenaline makes you release lots of stress. Not only do i enjoy that but i love seeing the design and amount of imagination and architetual skill that its put into each one of them. 
-  </p>
-  
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h1>Adrenaline...</h1>
+    <p>I love spending time at theme parks and trying new rollercoasters. I belive the adrenaline makes you release lots of stress. Not only do i enjoy that but i love seeing the design and amount of imagination and architetual skill that its put into each one of them.</p>
 
 
-<footer> 
-    <p>Last updated on Nov. 11th <br> <a 
-                                         href="mailto:karla.marmol@gmail.com">Email me</a> 
-    </p>
-    </footer>
+<footer> Last updated on Oct. 26th <br> <a href="karla.marmol@gmail.com">Email me</a> </footer>
+  </div>
+</div>
+
 </body>
-</html>
