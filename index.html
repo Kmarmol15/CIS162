@@ -2,36 +2,93 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href=main.css">
+<content="width=device-width, initial-scale=1">
 <title>Karla Marmol</title>
 
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
 </head>
+
 <body>
 
-<header><h1>Karla Marmol</h1></header>
 <nav>
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="adventures.html">Adventures</a> </li>
-<li style="float:right"></li>
+  <li><a href="#home.html">Home</a></li>
+  <li><a href="#about.html">About</a></li>
+  <li><a href="#adventures.html">Adventures</a></li>
+  <li style="float:right"></li>
 </ul>
 </nav>
-<section>
-<h2> Welcome to my world</h2>
-<p>My name is Karla Marmol and I was born in a small country named El Salvador. I have been trying to finish school for quite a long time now, but life always kicks in unexpectedly. I currently live in Torrance, California and work for Torrance Memorial Hospital for the Information Technology Department. I am currently looking foward to learning more tools that will help me in my every day job life.</p>
-  
 
-<h2>When I have free time</h2>
-<ol>
-<li>I love visiting theme parks.</li>
-<li>I enjoy afternoons at the beach.</li>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+<h2>Welcome to my world...</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2></h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>When I have free time</h2>
+    <ol>
+    <li>I love visiting theme parks.</li>
+    <li>I enjoy afternoons at the beach.</li>
 <li>I enjoy purchasing books.</li>
+    </ol>
+  </div>
+</div>
 
-</ol>
-  
-<p>My favorite website is <a href="http://google.com">Google</a> because it keeps me entertained.</p>
-  </section>
-<footer> Last updated on Oct. 26th <br> <a href="mailto:karlamarmol15@gmail.com">Email me</a> </footer>
 </body>
 </html>
+
