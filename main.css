@@ -10,17 +10,20 @@ grid-template-areas: "header header"
 
 "articles faq"
 
-"footer footer"
+"footer footer";
 
 grid-column-gap: 15px;
 
 }
 
- 
+.header-img {
+ width: 100%;
+ height: 400px;
+}
 
 body > header {
 
-grip-row: 1;
+grid-row: 1;
 
 grid-column: 1/-1;
 
