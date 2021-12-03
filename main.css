@@ -61,6 +61,11 @@ grid-template-columns: repeat(2, 1fr) ;
 
 }
 
+div {
+  background-color: Green;
+}
+
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
