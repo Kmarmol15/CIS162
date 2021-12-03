@@ -56,14 +56,7 @@ nav a:visited {
   color: mediumseagreen;
 }
 
-body > article {grid-area: intro; clear: left;
-float: left;
-padding: 1.5em;
-width: 63%;
-background-color: darkslategray;
-margin-right:25px;
-color: darkcyan; 
-}
+body > article {grid-area: intro;}
 body > aside {grid-area: faq;}
 body > section {grid-area: articles;}
 body > footer {grid-area: footer;}
