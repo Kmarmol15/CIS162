@@ -62,7 +62,7 @@ grid-template-columns: repeat(2, 1fr) ;
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
+  float: right;
   width: 180px;
 }
 
