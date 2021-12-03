@@ -24,13 +24,13 @@ background-color:grey;
 
 
 body > header { 
-  width: 40%;
+  width: 80%;
 grid-row: 2;
 grid-column: 1/-1;
   background-color:darkgreen;
 }
 
-h1{color:Maroon;}
+h2{color: maroon;}
 
 nav ul li { 
   marging-left: auto;
@@ -46,7 +46,7 @@ nav a {
   text-decoration: none;
   display: block;
   text-align: center;
-  background-color: cadetblue;
+  background-color: maroon;
   font-size: 1.4em;
    line-height: 1.8em;
    text-align: center;
