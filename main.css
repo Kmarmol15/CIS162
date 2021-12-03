@@ -41,7 +41,20 @@ nav li {
   float: left;
 }
 
+nav a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: cadetblue;
+  font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
 
+nav a:hover,
+nav a:visited {
+  color: mediumseagreen;
+}
 
 body > article {grid-area: intro;}
 body > aside {grid-area: faq;}
@@ -70,7 +83,7 @@ section#leftColumn p {
 }
 /* Left Column Styles */
 
-section#leftColumn {
+article#leftColumn {
    clear: left;
    float: left;
    padding: 1.5em;
@@ -88,7 +101,7 @@ section#leftColumn {
 }
 /* Right Column Styles */
 
-section#rightColumn {
+aside#rightColumn {
    float: left;
    margin-top: 50px;
    width: 33%;
