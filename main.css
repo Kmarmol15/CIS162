@@ -8,7 +8,7 @@ grid-template-areas: "header header"
 "articles faq"
 "footer footer";
 grid-column-gap: 15px;
-background-color:#B38184;
+background-color:#D3A625;
 margin-left: auto;
 margin-right: auto;
 max-width: 960px;
@@ -29,11 +29,11 @@ height: 200px;
 body > header {
 grid-row: 1;
 grid-column: 1/-1;
-background-color:darkgreen;
+background-color:#740001;
 }
 
 
-h2{color: maroon;}
+h2{color: #c0c0c0;}
 
 nav ul li {
 margin-left: auto;
@@ -58,7 +58,7 @@ color:maroon;
 
 nav a:hover {background-color: white;}
 nav a:visited {
-color: mediumseagreen;
+color:#EEBA30;
 }
 
 
