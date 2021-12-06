@@ -1,4 +1,4 @@
-html {background-color:black}
+html {background-color:#5D5D5D}
 
 body {
 display: grid;
@@ -29,11 +29,11 @@ height: 200px;
 body > header {
 grid-row: 1;
 grid-column: 1/-1;
-background-color:#740001;
+background-color:#222F5B;
 }
 
 
-h2{color: #c0c0c0;}
+h2{color: #000000;}
 
 nav ul li {
 margin-left: auto;
@@ -53,25 +53,25 @@ font-size: 1.4em;
 line-height: 1.8em;
 text-align: center;
 padding: 5px 50px 5px 50px;
-color:maroon;
+color:#946B2D;
 }
 
 nav a:hover {background-color: white;}
 nav a:visited {
-color:#EEBA30;
+color:#946B2D;
 }
 
 
 /* Grid Styles for Nested Grid */
 
 
-section { background-color:green;
+section { background-color:#0E1A40;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 }
 
 div {
-background-color:darkgreen;
+background-color:#000000;
 }
 
 
