@@ -65,13 +65,13 @@ color:#946B2D;
 /* Grid Styles for Nested Grid */
 
 
-section { background-color:#0E1A40;
+section { background-color:#5D5D5D;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 }
 
 div {
-background-color:#000000;
+background-color:#946B2D;
 }
 
 
